@@ -1,0 +1,16 @@
+@import "normalize";
+@import "fonts";
+@import "vars";
+
+* {
+  list-style-type: none;
+  scroll-behavior: smooth
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: var(--fontWeights-regular);
+  max-width: 100%;
+  color: var(--black100);
+  background: var(--white100);
+}
